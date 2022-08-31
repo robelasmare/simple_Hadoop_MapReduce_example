@@ -13,7 +13,7 @@ for line in sys.stdin:
     words = line.split()
 
     # output tuples (word, 1) in tab-delimited format
-    stopwords = set(['the', 'and','a','for','I','go','four','three','be','not','to'])
+    stopwords = set(['the', 'and','a','for','I','go','four','three','be','not','to','be','railings','or','not'])
 
     # notice the loop is different
 
