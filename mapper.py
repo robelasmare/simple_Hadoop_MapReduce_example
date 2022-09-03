@@ -13,10 +13,11 @@ for line in sys.stdin:
     words = line.split()
 
     # output tuples (word, 1) in tab-delimited format
-    stopwords = set(['the', 'and','a','for','I','go','four','three','be','not','to'])
+    stopwords = set(['the', 'and','a','for','I','go','four','three','be','not','to','railing', 'vassals','`~!$<>,.:;"'])
 
     # notice the loop is different
 
     for word in words:
         if word not in stopwords:
          print '%s\t%s' % (word, "1")
+
